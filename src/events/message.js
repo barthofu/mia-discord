@@ -28,9 +28,6 @@ module.exports = class {
 
             if (value.info.name == cmd || value.info.aliases.map(val => val.replace("_", "")).includes(cmd)) {
 
-                //stats
-                postCommand(value.info.name, msg);
-
                 //check maintenance
                 if (db.data.get('maintenance').value() && !config.dev.includes(msg.author.id)) {
                     return msg.reply(`le bot est en maintenance, merci de réessayer plus tard.\n*Début de la maintenance : **${dateFormat(db.data.get("maintenance").value(), "HH:MM")}***`) 
@@ -79,14 +76,5 @@ module.exports = class {
         }
 
     }
-
-}
-
-function postCommand (cmd, msg) {
-
-    //database statistics update
-    if (!db.stats.get(`actual.commands.details`).has(cmd).value()) db.stats.set(`actual.commands.details.${cmd}`, 0).write()
-    db.stats.update('actual.commands.total', val => val + 1).write()
-    db.stats.update(`actual.commands.details.${cmd}`, val => val + 1).write()
 
 }

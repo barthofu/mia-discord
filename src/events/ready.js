@@ -12,7 +12,6 @@ module.exports = class {
         setInterval(async () => {
             
             //activity change
-            let activity = config.activities[index]
             if (activity.type === "STREAMING") {
                 //streaming activity
                 bot.user.setStatus('available')
