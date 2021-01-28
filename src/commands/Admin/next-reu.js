@@ -4,7 +4,7 @@ const commandParams = {
     
     name: "next-reu",
     aliases: [],
-    desc: "",
+    desc: "Définis la date de la prochaine réunion.",
     enabled: true,
     dm: false,
     nsfw: false,
@@ -21,7 +21,7 @@ module.exports = class extends CommandPattern {
         super(commandParams)
     }
 
-    async run (msg, args, cmd, color) {
+    async run (msg, args, cmd) {
 
         if (args[0] == "off") {
 
@@ -37,7 +37,6 @@ module.exports = class extends CommandPattern {
             hour = args[1].split("h")[0],
             minute = args[1].split("h")[1]
 
-            console.log(day, month, hour, minute)
         if (
             (day < 1 || day > 31) ||
             (month < 1 || month > 12) ||
@@ -47,13 +46,11 @@ module.exports = class extends CommandPattern {
             return msg.reply("la date/heure renseignée n'est pas correcte.")
         }
 
-        let time = new Date(2021, month - 1, day, hour - - 1, minute).getTime()
+        let time = new Date(2021, month - 1, day, hour, minute).getTime()
 
         db.data.set("next-reu", time).write()
 
         msg.react("✅")
-
-
 
     }
 

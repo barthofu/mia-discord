@@ -4,8 +4,8 @@ module.exports = class {
 
     async run (msg) {
 
-        let prefix = config.prefix
-        let args = msg.content.slice(prefix.length).trim().split(/ +/g),
+        let prefix = config.prefix,
+            args = msg.content.slice(prefix.length).trim().split(/ +/g),
             cmd = args.shift().toLowerCase()
 
         //check if message starts with prefix
@@ -73,7 +73,7 @@ module.exports = class {
                 }
 
                 //run
-                await bot.commands.get(value.info.name).run(msg, args, cmd, config.color)
+                await bot.commands.get(value.info.name).run(msg, args, cmd)
 
             }
         }

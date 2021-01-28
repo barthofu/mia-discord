@@ -21,7 +21,7 @@ module.exports = class extends CommandPattern {
         super(commandParams)
     }
 
-    async run (msg, args, cmd, color) {
+    async run (msg, args, cmd) {
 
         let updatedObj = db.data.update("maintenance", val => val ? false : new Date().getTime()).write()
         msg.reply(`mode maintenance **${updatedObj.maintenance ? "activé" : "désactivé"}**`)

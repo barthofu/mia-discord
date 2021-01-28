@@ -22,7 +22,7 @@ module.exports = class extends CommandPattern {
         super(commandParams)
     }
 
-    async run (msg, args, cmd, color) {
+    async run (msg, args, cmd) {
 
         const mem = await si.mem();
         const used = process.memoryUsage().heapUsed;

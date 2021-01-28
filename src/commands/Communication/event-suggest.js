@@ -21,12 +21,12 @@ module.exports = class extends CommandPattern {
         super(commandParams)
     }
 
-    async run (msg, args, cmd, color) {
+    async run (msg, args, cmd) {
 
         if (args.length == 0) return msg.reply("tu n'as pas précisé de suggestion !")
 
         let webhook = await bot.channels.cache.get(config.channels.eventIdeas).createWebhook(msg.author.username, {
-            avatar: msg.author.displayAvatarURL()
+            avatar: msg.author.displayAvatarURL({dynamic: true})
         })
 
         let m = await webhook.send(new MessageEmbed()

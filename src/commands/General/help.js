@@ -25,9 +25,9 @@ module.exports = class extends CommandPattern {
         super(commandParams)
     }
 
-    async run (msg, args, cmd, color) {
+    async run (msg, args, cmd) {
 
-        let prefix = db.guild.get(`guilds.${msg.guild.id}.prefix`).value(),
+        let prefix = config.prefix,
             page = 1,
             filter = (reaction, user) => user.id === msg.author.id && ["◀", "▶"].includes(reaction.emoji.name);
 
@@ -52,21 +52,22 @@ module.exports = class extends CommandPattern {
 
 
         let embed = new MessageEmbed()
-        .setTitle(lang["help"]["title"][la])
+        .setTitle("Pannel d'aide")
         .setColor(color)
         .setAuthor(msg.author.username, msg.author.displayAvatarURL())
         .setThumbnail("https://upload.wikimedia.org/wikipedia/commons/a/a4/Cute-Ball-Help-icon.png")
         
-        let categories = fs.readdirSync(`./src/commands`)
+        let categories = fs.readdirSync(`./src/commands`).filter(file => !file.includes("."))
         categories.forEach(category => {
-            embed.addField(`${category}`, fs.readdirSync(`./src/commands/${category}`).filter(file => file.endsWith(".js") && !file.startsWith("_")).map(
-                    commandName => {
-                        let command = bot.commands.get(commandName.split(".")[0])
-                        console.log(commandName, command)
-                        return command.verification.enabled == true && command.permission.owner == false?`\`${db.server.get(`guilds.${msg.guild.id}.prefix`).value()}${commandName.split(".")[0]}\`${command.info.aliases.length > 0?` (${command.info.aliases.map(val => `\`${val}\``).join(" | ")})`:""} | ${command["info"]["desc"][la]} ${this.checkCommand(command)}`:""
-                    } 
-                ).join("\r\n")
-            )
+            
+            let commandsArr = fs.readdirSync(`./src/commands/${category}`).filter(file => file.endsWith(".js") && !file.startsWith("_")).map(
+                commandName => {
+                    let command = bot.commands.get(commandName.split(".")[0])
+                    return command.verification.enabled == true && command.permission.owner == false?`\`${prefix}${commandName.split(".")[0]}\`${command.info.aliases.length > 0?` (${command.info.aliases.map(val => `\`${val}\``).join(" | ")})`:""} | ${command.info.desc} ${this.checkCommand(command)}`:""
+                } 
+            ).filter(e => e)
+            console.log(category, commandsArr)
+            if (commandsArr.length > 0) embed.addField(`${category}`, commandsArr.join("\r\n"))            
         })
 
         msg.channel.send(embed)

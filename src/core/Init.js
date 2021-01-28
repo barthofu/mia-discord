@@ -10,6 +10,7 @@ global.
     bot          = client.bot,
     MessageEmbed = client.MessageEmbed,
     utils        = new (require("./Utils.js"))(),
+    color        = config.colors.default
 
 module.exports = async () => {
 
