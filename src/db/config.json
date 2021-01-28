@@ -1,0 +1,39 @@
+{
+
+    "description": "Le Bot Discord officiel de la liste My Info Academia du DUT Informatique Lyon 1 La Doua",
+
+    "version": "1.0.0",
+
+    "prefix": "!",
+    
+    "ownerID": "260908777446965248",
+
+    "dev": [
+        "260908777446965248"
+    ],
+
+    "colors": {
+        "default": "2f3136"
+    },
+
+    "evalName": "mia",
+
+    "startingConsoleDetailed": false,
+
+    "activities": [
+        {
+            "text": "la salle du BDE remplie de monde",
+            "type": "WATCHING"
+        }
+    ],
+
+    "channels": {
+
+        "ideas": "777326096773283900",
+        "eventIdeas": "777452959947816981",
+        "nextReu": "804094528725712947"
+
+    }
+
+
+}
