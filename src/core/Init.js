@@ -10,7 +10,9 @@ global.
     bot          = client.bot,
     MessageEmbed = client.MessageEmbed,
     utils        = new (require("./Utils.js"))(),
-    color        = config.colors.default
+    color        = config.colors.default,
+    //voice things
+    connection   = null
 
 module.exports = async () => {
 

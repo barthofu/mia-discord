@@ -12,6 +12,7 @@ module.exports = class {
         setInterval(async () => {
             
             //activity change
+            let activity = config.activities[index]
             if (activity.type === "STREAMING") {
                 //streaming activity
                 bot.user.setStatus('available')
@@ -38,7 +39,7 @@ module.exports = class {
         }, 15 * 1000) //each 15 sec
 
         //each 5 minutes within an hour
-        cron.schedule('*/10 * * * *', () => {
+        cron.schedule('*/10 * * * *', async () => {
 
             //update next-reu
             let reuTime = db.data.get("next-reu").value(), text
@@ -50,13 +51,22 @@ module.exports = class {
                 if (timeLeft <= 0) {
 
                     //reu in progress
-                    if (timeLeft > - (2 * 60 * 60 * 1000)) text = "🛑 Réunion en cours"
+                    if (timeLeft > - (2 * 60 * 60 * 1000)) {
+                        
+                        text = "🛑 Réunion en cours"
+
+                        await this.joinReuVoiceChannel()
+
+                    }
 
                     //reu terminated
                     else {
                         
                         db.data.set("next-reu", null).write()
                         text = "-"
+
+                        this.leaveReuVoiceChannel()
+
                     }
                 }
 
@@ -64,11 +74,13 @@ module.exports = class {
 
                     if (timeLeft > 5 * 60 * 1000 && timeLeft <= 15 * 60 * 1000) {
 
-                        bot.channels.cache.get(config.channels.rappelReu).send(`▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n||@everyone||\n\n__**La réunion est sur le point de débuter !**__\n\nPensez bien à vous renseigner sur l'ODJ dans <#777312284942008379> ;)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬`)
+                        //bot.channels.cache.get(config.channels.rappelReu).send(`▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n||@everyone||\n\n__**La réunion est sur le point de débuter !**__\n\nPensez bien à vous renseigner sur l'ODJ dans <#777312284942008379> ;)\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬`)
                     }
     
                     //reu planned
                     else text = "⏱️ Réu : " + prettyMilliseconds(timeLeft + 1000).split(" ").slice(0, -1).join(" ")
+
+                    this.leaveReuVoiceChannel()
 
                 }
 
@@ -76,12 +88,32 @@ module.exports = class {
 
                 //no reu planned
                 text = "-"
+
+                this.leaveReuVoiceChannel()
+
             }
 
             bot.channels.cache.get(config.channels.nextReu).setName(text)
 
         })
         
+    }
+
+
+    async joinReuVoiceChannel () {
+
+        let voiceChannel = bot.channels.cache.get(config.channels.reuVoice)
+        connection = await voiceChannel.join()
+    }
+
+    
+    leaveReuVoiceChannel () {
+
+        if (connection) {
+
+            connection = null
+            bot.channels.cache.get(config.channels.reuVoice).leave()
+        }
     }
     
     
