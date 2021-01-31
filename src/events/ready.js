@@ -68,7 +68,7 @@ module.exports = class {
                     }
     
                     //reu planned
-                    else text = "⏱️ Réunion : " + prettyMilliseconds(timeLeft + 1000).split(" ").slice(0, -1).join(" ")
+                    else text = "⏱️ Réu : " + prettyMilliseconds(timeLeft + 1000).split(" ").slice(0, -1).join(" ")
 
                 }
 
