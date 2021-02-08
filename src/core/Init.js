@@ -1,7 +1,7 @@
 global.
     //npm
     dateFormat   = require('dateformat'),
-    _            = require('lodash'),
+    fs            = require('fs'),
     //local databases
     db           = {},
     config       = require("../db/config.json"),
