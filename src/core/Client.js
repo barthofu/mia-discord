@@ -2,7 +2,6 @@ let UserPattern   = require("../models/User.js"),
     FileSync      = require('lowdb/adapters/FileSync'),
     low           = require('lowdb'),
     Discord       = require('discord.js'),
-    fs            = require('fs'),
     process       = require('process')
     credentials   = require("../../.credentials.json");
 

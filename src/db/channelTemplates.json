@@ -4,15 +4,378 @@
 
         {
             "name": "▬▬▬▬▬▬▬▬▬",
-            "type": "text"
+            "type": "text",
+            "permissionsAuth": [],
+            "permissionsForbid": [],
+            "defaultMessage": ""
         }, 
         {
             "name": "⚙｜orga",
-            "type": "text"
+            "type": "text",
+            "permissionsAuth": [],
+            "permissionsForbid": [],
+            "defaultMessage": ""
+        },
+        {
+            "name": "▬▬▬▬▬▬▬▬▬",
+            "type": "text",
+            "permissionsAuth": ["VIEW_CHANNEL"],
+            "permissionsForbid": ["SEND_MESSAGES"],
+            "defaultMessage": ""
         }
     ],
 
     "culture": [
+
+        {
+            "name": "quizz",
+            "fancyName": "Quizz",
+            "emote": "🧾",
+            "role": "808073506365112330",
+            "channels": [
+                {
+                    "name": "🌍｜général",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "📗｜ekip-1",
+                    "type": "text",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808073519002026015",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "📘｜ekip-2",
+                    "type": "text",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808074841672515605",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "📙｜ekip-3",
+                    "type": "text",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808074849074413590",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "📒｜ekip-4",
+                    "type": "text",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808074853017583666",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🟢 ➤ ékip 1",
+                    "type": "voice",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808073519002026015",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🔵 ➤ ékip 2",
+                    "type": "voice",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808074841672515605",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🟠 ➤ ékip 3",
+                    "type": "voice",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808074849074413590",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🟡 ➤ ékip 4",
+                    "type": "voice",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808074853017583666",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                }
+            ]
+    
+        },
+
+
+        {
+            "name": "quizz",
+            "fancyName": "Quizz",
+            "emote": "🧾",
+            "role": "808073512714895360",
+            "channels": [
+                {
+                    "name": "📖｜règlement",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": ["SEND_MESSAGES"],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🌍｜général",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "📗｜ekip-1",
+                    "type": "text",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808074839033380924",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "📘｜ekip-2",
+                    "type": "text",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808074993199349760",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "📙｜ekip-3",
+                    "type": "text",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808074995708067870",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "📒｜ekip-4",
+                    "type": "text",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808074854137200652",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🟢 ➤ ékip 1",
+                    "type": "voice",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808074839033380924",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🔵 ➤ ékip 2",
+                    "type": "voice",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808074993199349760",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🟠 ➤ ékip 3",
+                    "type": "voice",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808074995708067870",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🟡 ➤ ékip 4",
+                    "type": "voice",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "additionnalPermissions": [
+                        {
+                            "role": "808074854137200652",
+                            "permissionsAuth": ["VIEW_CHANNEL"],
+                            "permissionsForbid": []
+                        }
+                    ],
+                    "defaultMessage": ""
+                }
+            ]
+    
+        },
+
+        {
+            "name": "drawing",
+            "fancyName": "Drawing",
+            "emote": "💠",
+            "role": "808073515961548871",
+            "channels": [
+                {
+                    "name": "📖｜règlement",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": ["SEND_MESSAGES"],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🌍｜général",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🖍｜dessins",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🎨 ➤ Art Museum",
+                    "type": "voice",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                }
+            ]
+    
+        },
+
+
+        {
+            "name": "projection",
+            "fancyName": "Projection",
+            "emote": "📽",
+            "role": "808073510676856924",
+            "channels": [
+                {
+                    "name": "🌍｜général",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🎬｜catalogue",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": ["SEND_MESSAGES"],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "📺 ➤ Salle 1",
+                    "type": "voice",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "📺 ➤ Salle 2",
+                    "type": "voice",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "📺 ➤ Salle 3",
+                    "type": "voice",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                }
+            ]
+    
+        }
 
     ],
 
@@ -27,21 +390,21 @@
                 {
                     "name": "📃｜règlement",
                     "type": "text",
-                    "permissionsAuth": [],
+                    "permissionsAuth": ["VIEW_CHANNEL"],
                     "permissionsForbid": ["SEND_MESSAGES"],
                     "defaultMessage": ""
                 },
                 {
                     "name": "🏆｜brackets",
                     "type": "text",
-                    "permissionsAuth": [],
+                    "permissionsAuth": ["VIEW_CHANNEL"],
                     "permissionsForbid": ["SEND_MESSAGES"],
                     "defaultMessage": ""
                 },
                 {
                     "name": "🌍｜général",
                     "type": "text",
-                    "permissionsAuth": [],
+                    "permissionsAuth": ["VIEW_CHANNEL"],
                     "permissionsForbid": [],
                     "defaultMessage": ""
                 }

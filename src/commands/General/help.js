@@ -1,5 +1,4 @@
 const CommandPattern = require("../../models/Command.js"),
-      fs = require("fs"),
       { MessageEmbed } = require("discord.js");
 
 const commandParams = {
