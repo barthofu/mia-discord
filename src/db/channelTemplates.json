@@ -1,0 +1,54 @@
+{
+
+    "default": [
+
+        {
+            "name": "▬▬▬▬▬▬▬▬▬",
+            "type": "text"
+        }, 
+        {
+            "name": "⚙｜orga",
+            "type": "text"
+        }
+    ],
+
+    "culture": [
+
+    ],
+
+    "event": [
+        
+        {
+            "name": "lol",
+            "fancyName": "League of Legends",
+            "emote": "🎮",
+            "role": "808270547241926666",
+            "channels": [
+                {
+                    "name": "📃｜règlement",
+                    "type": "text",
+                    "permissionsAuth": [],
+                    "permissionsForbid": ["SEND_MESSAGES"],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🏆｜brackets",
+                    "type": "text",
+                    "permissionsAuth": [],
+                    "permissionsForbid": ["SEND_MESSAGES"],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🌍｜général",
+                    "type": "text",
+                    "permissionsAuth": [],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                }
+            ]
+    
+        }
+    ]
+}
+
+
