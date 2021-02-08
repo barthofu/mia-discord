@@ -23,7 +23,7 @@ module.exports = class extends CommandPattern {
 
     async run (msg, args, cmd) {
 
-        let subsCommands = fs.readdirSync("./src/commands/Event").filter(file => file.startsWith("_")).map(fileName => fileName.split(".")[0])
+        let subsCommands = fs.readdirSync("./src/commands/Event").filter(file => file.startsWith("_")).map(fileName => fileName.split(".")[0].split("_")[1])
 
         if (args.length === 0 || !subsCommands.includes(args[0].toLowerCase())) return msg.reply("argument invalide. Liste des sous commandes possibles :\n" + subsCommands.join("\r\n"))
 
