@@ -1,3 +1,5 @@
+const channelsTemplates = require("../../db/channelTemplates.json")
+
 module.exports = class {
 
     async run (msg, args, cmd) {

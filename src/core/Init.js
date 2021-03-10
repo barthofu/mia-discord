@@ -1,7 +1,7 @@
 global.
     //npm
     dateFormat   = require('dateformat'),
-    fs            = require('fs'),
+    _            = require('lodash'),
     //local databases
     db           = {},
     config       = require("../db/config.json"),
@@ -12,7 +12,8 @@ global.
     utils        = new (require("./Utils.js"))(),
     color        = config.colors.default,
     //voice things
-    connection   = null
+    connection   = null,
+    talking      = false
 
 module.exports = async () => {
 

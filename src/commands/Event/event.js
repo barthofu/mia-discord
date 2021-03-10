@@ -27,7 +27,7 @@ module.exports = class extends CommandPattern {
 
         if (args.length === 0 || !subsCommands.includes(args[0].toLowerCase())) return msg.reply("argument invalide. Liste des sous commandes possibles :\n" + subsCommands.join("\r\n"))
 
-        const command = new (require(`./${args[0].toLowerCase()}.js`))()
+        const command = new (require(`./_${args[0].toLowerCase()}.js`))()
 
         await command.run(msg, args.slice(1), cmd)
 

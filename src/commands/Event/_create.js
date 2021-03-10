@@ -2,7 +2,8 @@ const channelsTemplates = require("../../db/channelTemplates.json")
 
 const sepCatIds = {
     "culture": "807778805129281626",
-    "event": "807778744264687676"
+    "event": "807778744264687676",
+    "archive": "808392250610286603"
 }
 
 module.exports = class {
@@ -20,7 +21,7 @@ module.exports = class {
         let type = channelsTemplates.culture.find(e => e.name === args[0]) ? "culture" : "event"
     
         //category creation
-        let category = await msg.guild.channels.create(`『${template.emote}』${template.fancyName}`, {
+        let category = await msg.guild.channels.create(`『${template.emote}』 ${template.fancyName}`, {
             type: "category",
             permissionOverwrites: [
                 {
@@ -76,7 +77,7 @@ module.exports = class {
 
     getPosition (type) {
 
-        return type === "culture" ? bot.channels.cache.get(sepCatIds[type]) : -1
+        return type === "culture" ? bot.channels.cache.get(sepCatIds["event"]).position : bot.channels.cache.get(sepCatIds["archive"]).position
 
     }
 

@@ -1,5 +1,6 @@
 const prettyMilliseconds = require('pretty-ms'),
-      cron = require('node-cron');
+      cron = require('node-cron'),
+      members = require('../db/members.json');
 
 var index = 0
 
@@ -35,6 +36,18 @@ module.exports = class {
             
             //stats update
             client.checkDaily()
+
+            //check birthday
+            if (dateFormat(new Date(), "HH:MM") === "23:55") {
+                members.map(member => {
+                    if (member.birthday.split("/").slice(0, -1).join("/") === dateFormat(new Date().getTime() - 24 * 60 * 60 * 1000, "dd/mm")) {
+                        //send birthday notification to all the members
+                        bot.guilds.cache.get("777312284409724958").roles.cache.get("777312284417982508").members.map(e => {
+                            if (e.id !== member.id) bot.users.cache.get(e.id).send(`Dans 5 minutes c'est l'anniversaire de **${member.name}** ! N'oublie pas d'aller le lui souhaiter ;)`)
+                        })
+                    }
+                })
+            } 
             
         }, 15 * 1000) //each 15 sec
 

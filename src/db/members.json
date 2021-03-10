@@ -1,0 +1,380 @@
+[
+    {
+        "name": "BOURCEREAU Ethan",
+        "birthday": "09/10/2001",
+        "image": "ethan",
+        "id": "208207211191730176",
+        "roles": [
+            {
+                "role": "Président",
+                "grade": ""
+            }
+        ],
+        "notes": "Oubliez pas qui c'est l'patron"
+    },
+    {
+        "name": "GOMEZ SANCHEZ Juan",
+        "id": "290139158952017920",
+        "image": "juan",
+        "birthday": "22/08/2001",
+        "roles": [
+            {
+                "role": "Vice-président",
+                "grade": ""
+            }
+        ],
+        "notes": "Love you Lena ❤️"
+    },
+    {
+        "name": "LESPINASSE Quentin",
+        "id": "296299023143403521",
+        "image": "quentin",
+        "birthday": "30/07/2002",
+        "roles": [
+            {
+                "role": "Trésorier",
+                "grade": "RP"
+            }
+        ],
+        "notes": ""
+    },
+    {
+        "name": "DANEYROLLE Lucas",
+        "id": "494193895668842497",
+        "image": "lucas_D",
+        "birthday": "11/10/2002",
+        "roles": [
+            {
+                "role": "Trésorier",
+                "grade": "BD"
+            }
+        ],
+        "notes": "Pizza > all, ça bouge aps"
+    },
+    {
+        "name": "IGLESIS Léna",
+        "id": "663444990487298048",
+        "image": "lena",
+        "birthday": "07/05/2002",
+        "roles": [
+            {
+                "role": "Secrétaire",
+                "grade": "RP"
+            }
+        ],
+        "notes": ""
+    },
+    {
+        "name": "FERNANDES Claire",
+        "id": "692294443872550962",
+        "image": "claire",
+        "birthday": "23/02/2002",
+        "roles": [
+            {
+                "role": "Secrétaire",
+                "grade": "BD"
+            },
+            {
+                "role": "Pôle Culture",
+                "grade": "RP"
+            }
+        ],
+        "notes": ""
+    },
+    {
+        "name": "RICHARD Sébastien",
+        "id": "751106751654264842",
+        "image": "seb",
+        "birthday": "23/03/2002",
+        "roles": [
+            {
+                "role": "Pôle K'Fet",
+                "grade": "RP"
+            }
+        ],
+        "notes": "Tu tournes ! ^^"
+    },
+    {
+        "name": "SEDDIK Mehdi",
+        "id": "250970680516935680",
+        "image": "mehdi",
+        "birthday": "12/02/2002",
+        "roles": [
+            {
+                "role": "Membre Actif",
+                "grade": ""
+            }
+        ],
+        "notes": "Cherche go pas chiante qui sais utiliser la kouizine, si intéressé envoyez un msg a mon num on s'tape un tacos en tête a tête"
+    },
+    {
+        "name": "GILI Bartholomé",
+        "id": "260908777446965248",
+        "image": "bartho",
+        "birthday": "01/02/2002",
+        "roles": [
+            {
+                "role": "Superviseur",
+                "grade": ""
+            },
+            {
+                "role": "Pôle Event",
+                "grade": "BG"
+            }
+        ],
+        "notes": "c'est l'histoire d'un zoophile qui rentre dans un bar. 👁️👄👁️"
+    },
+    {
+        "name": "KOPP Rémy",
+        "id": "613394859906170938",
+        "image": "remy_K",
+        "birthday": "30/12/2002",
+        "roles": [
+            {
+                "role": "Superviseur",
+                "grade": ""
+            },
+            {
+                "role": "Pôle K'Fet",
+                "grade": "JD"
+            }
+        ],
+        "notes": ""
+    },
+    {
+        "name": "FAVEROT Benjamin",
+        "id": "300581520224026625",
+        "image": "ben",
+        "birthday": "05/11/2001",
+        "roles": [
+            {
+                "role": "Pôle Event",
+                "grade": "RP"
+            }
+        ],
+        "notes": "MIA : le jeu mobile"
+    },
+    {
+        "name": "ADJAMIDIS Antoine",
+        "id": "186054282888478720",
+        "image": "antoine",
+        "birthday": "11/10/2002",
+        "roles": [
+            {
+                "role": "Pôle Event",
+                "grade": "BD"
+            }
+        ],
+        "notes": "jsuis le plus beau des lyonnais"
+    },
+    {
+        "name": "COURAU Jules",
+        "id": "289056901629607937",
+        "image": "jules",
+        "birthday": "15/11/2002",
+        "roles": [
+            {
+                "role": "Pôle Event",
+                "grade": "JD"
+            }
+        ],
+        "notes": "Lis chainsaw man / Reze est au dessus de nous / smash"
+    },
+    {
+        "name": "LETESSIER Joshua",
+        "id": "299173422762819594",
+        "image": "joshua",
+        "birthday": "17/08/2002",
+        "roles": [
+            {
+                "role": "Pôle Culture",
+                "grade": "BG"
+            }
+        ],
+        "notes": "Le pôle culture c'est le best"
+    },
+    
+    {
+        "name": "DE OLIVEIRA Josse",
+        "id": "358520708932042754",
+        "image": "josse",
+        "birthday": "06/01/2003",
+        "roles": [
+            {
+                "role": "Pôle Communication et Réseaux",
+                "grade": "JD"
+            }
+        ],
+        "notes": "Et un des devs de Info Quest"
+    },
+    {
+        "name": "PUJOL Thomas",
+        "id": "484006855438499850",
+        "image": "thomas",
+        "birthday": "17/03/2002",
+        "roles": [
+            {
+                "role": "Membre Actif",
+                "grade": ""
+            }
+        ],
+        "notes": "❤️"
+    },
+    {
+        "name": "BARD Joséphine",
+        "id": "425708710317522957",
+        "image": "josephine",
+        "birthday": "21/08/2002",
+        "roles": [
+            {
+                "role": "Pôle Communication et Réseaux",
+                "grade": "BD"
+            }
+        ],
+        "notes": "cœur sur vous"
+    },
+
+
+    {
+        "name": "BONNIEUL Lucas",
+        "id": "399297549166706699",
+        "image": "lucas_B",
+        "birthday": "01/06/2003",
+        "roles": [
+            {
+                "role": "Pôle Culture",
+                "grade": "BD"
+            }
+        ],
+        "notes": ""
+    },
+
+    {
+        "name": "GUEFFAF Mohamed",
+        "id": "402851453107961869",
+        "image": "momo",
+        "birthday": "29/11/2002",
+        "roles": [
+            {
+                "role": "Pôle Communication et Réseaux",
+                "grade": "RP"
+            }
+        ],
+        "notes": ""
+    },
+    {
+        "name": "DAVID Rémy",
+        "id": "329170831248719872",
+        "image": "remy_D",
+        "birthday": "07/02/2002",
+        "roles": [
+            {
+                "role": "Pôle Event",
+                "grade": "JG"
+            },
+            {
+                "role": "Pôle Pioux",
+                "grade": "RP"
+            }
+        ],
+        "notes": "Les rémy c'est les best. Léna vend pas mes infos stp (oskour)"
+    },
+    {
+        "name": "BENZIANE Swann",
+        "id": "287864448390135818",
+        "image": "swann",
+        "birthday": "06/06/2002",
+        "roles": [
+            {
+                "role": "Pôle Culture",
+                "grade": "JD"
+            }
+        ],
+        "notes": ""
+    },
+
+    {
+        "name": "TABET Maria",
+        "id": "499707439369945089",
+        "image": "maria",
+        "birthday": "04/10/2002",
+        "roles": [
+            {
+                "role": "Membre Actif",
+                "grade": ""
+            }
+        ],
+        "notes": "Keur❤️"
+    },
+
+    {
+        "name": "PUSEL Auriane",
+        "id": "689840615881441294",
+        "image": "auriane",
+        "birthday": "27/03/2003",
+        "roles": [
+            {
+                "role": "Pôle Communication et Réseaux",
+                "grade": "BG"
+            }
+        ],
+        "notes": "je m'appelle aussi h2o aussi, svp ne m'appelez JAMAIS aurianne, merci les fratelos"
+    },
+
+    {
+        "name": "CHEVEREAU Lazare",
+        "id": "142334776362270720",
+        "image": "lazare",
+        "birthday": "17/01/2002",
+        "roles": [
+            {
+                "role": "Pôle K'Fet",
+                "grade": "BD"
+            }
+        ],
+        "notes": ""
+    },
+    {
+        "name": "THOMASSIN Jolan",
+        "id": "169866171137523712",
+        "image": "jolan",
+        "birthday": "26/11/2003",
+        "roles": [
+            {
+                "role": "Pôle K'Fet",
+                "grade": "JG"
+            }
+        ],
+        "notes": ""
+    },
+    {
+        "name": "PLAN Philippe",
+        "id": "335175864062967809",
+        "image": "philippe",
+        "birthday": "15/04/2002",
+        "roles": [
+            {
+                "role": "Pôle K'Fet",
+                "grade": "BG"
+            }
+        ],
+        "notes": "miaou le shaa"
+    },
+    {
+        "name": "BEVY Dorian",
+        "id": "522863542827876388",
+        "image": "dorian",
+        "birthday": null,
+        "roles": [
+            {
+                "role": "Pôle Event",
+                "grade": "CG"
+            },
+            {
+                "role": "Pôle K'Fet",
+                "grade": "JG"
+            }
+        ],
+        "notes": ""
+    }
+  ]

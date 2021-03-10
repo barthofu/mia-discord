@@ -1,3 +1,5 @@
+const archiveId = "808392250610286603"
+
 module.exports = class {
 
     async run (msg, args, cmd) {
@@ -8,11 +10,11 @@ module.exports = class {
 
         if (!category) return msg.reply("cette catégorie n'existe pas.")
 
-        //change the name of the category
-        category.setName(category.name.split(" ").slice(1).join(" ") + " | " + dateFormat(new Date(), "dd-mm-yyyy"))
-
         //change category position
-        category.setPosition(-1)
+        await category.edit({position: bot.channels.cache.get(archiveId).position})
+
+        //change the name of the category
+        await category.setName(category.name.split(" ").slice(1).join(" ") + " | " + dateFormat(new Date(), "dd-mm-yyyy"))
 
         msg.react("✅")
         
