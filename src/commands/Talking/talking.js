@@ -5,10 +5,7 @@ const commandParams = {
     
     name: "talking",
     aliases: [],
-    desc: {
-        "en": "",
-        "fr": ""
-    },
+    desc: "Fait parler deux personnages à l'aide d'une IA.",
     enabled: true,
     dm: false,
     nsfw: false,

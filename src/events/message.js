@@ -8,6 +8,30 @@ module.exports = class {
             args = msg.content.slice(prefix.length).trim().split(/ +/g),
             cmd = args.shift().toLowerCase()
 
+        //enigme
+        if (msg.channel.type === "dm") {
+
+            let user = db.enigme.get("users").find(e => e.id === msg.author.id).value()
+
+            if (user) {
+                //answer verification
+                if (user.progress.length === db.enigme.get("data").value().length - 1) return
+
+                let epreuve = db.enigme.get("data").value().filter(e => e.groups.includes(user.group))[user.progress.length]
+                let nextEpreuve = db.enigme.get("data").value().filter(e => e.groups.includes(user.group))[user.progress.length + 1]
+
+                if (epreuve.answer.find(e => e.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "") === msg.content.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""))) {
+                    //correct answer
+
+                    msg.react("✅")
+                    msg.channel.send(nextEpreuve.question)
+
+                    db.enigme.get("users").find(e => e.id === msg.author.id).get("progress").push(epreuve.name + " : " + new Date()).write()
+
+                } else msg.react("❌")
+            }
+        }
+
         //check if message starts with prefix
         if (!msg.content.toLowerCase().startsWith(prefix.toLowerCase())) {
 

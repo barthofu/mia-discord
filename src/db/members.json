@@ -42,7 +42,7 @@
         "name": "DANEYROLLE Lucas",
         "id": "494193895668842497",
         "image": "lucas_D",
-        "birthday": "11/10/2002",
+        "birthday": "16/04/2002",
         "roles": [
             {
                 "role": "Trésorier",
@@ -68,7 +68,7 @@
         "name": "FERNANDES Claire",
         "id": "692294443872550962",
         "image": "claire",
-        "birthday": "23/02/2002",
+        "birthday": "23/10/2002",
         "roles": [
             {
                 "role": "Secrétaire",
@@ -201,7 +201,7 @@
         "birthday": "06/01/2003",
         "roles": [
             {
-                "role": "Pôle Communication et Réseaux",
+                "role": "Pôle Communication et Réseau",
                 "grade": "JD"
             }
         ],
@@ -227,7 +227,7 @@
         "birthday": "21/08/2002",
         "roles": [
             {
-                "role": "Pôle Communication et Réseaux",
+                "role": "Pôle Communication et Réseau",
                 "grade": "BD"
             }
         ],
@@ -256,7 +256,7 @@
         "birthday": "29/11/2002",
         "roles": [
             {
-                "role": "Pôle Communication et Réseaux",
+                "role": "Pôle Communication et Réseau",
                 "grade": "RP"
             }
         ],
@@ -292,6 +292,47 @@
         ],
         "notes": ""
     },
+    {
+        "name": "CALLEYA Enzo",
+        "id": "206276143941156864",
+        "image": "enzo",
+        "birthday": "09/05/2002",
+        "roles": [
+            {
+                "role": "Membre Actif",
+                "grade": ""
+            }
+        ],
+        "notes": ""
+    },
+
+    {
+        "name": "BENEDUCI Marie",
+        "id": "751771174878576701",
+        "image": "marie",
+        "birthday": "27/02/2001",
+        "roles": [
+            {
+                "role": "Pôle Communication et Réseau",
+                "grade": "JG"
+            }
+        ],
+        "notes": ""
+    },
+
+    {
+        "name": "DESCHAMPS Cyril",
+        "id": "314151154281873411",
+        "image": "cyril",
+        "birthday": "19/06/2002",
+        "roles": [
+            {
+                "role": "Membre Actif",
+                "grade": ""
+            }
+        ],
+        "notes": ""
+    },
 
     {
         "name": "TABET Maria",
@@ -314,7 +355,7 @@
         "birthday": "27/03/2003",
         "roles": [
             {
-                "role": "Pôle Communication et Réseaux",
+                "role": "Pôle Communication et Réseau",
                 "grade": "BG"
             }
         ],
@@ -364,7 +405,7 @@
         "name": "BEVY Dorian",
         "id": "522863542827876388",
         "image": "dorian",
-        "birthday": null,
+        "birthday": "10/08/2002",
         "roles": [
             {
                 "role": "Pôle Event",

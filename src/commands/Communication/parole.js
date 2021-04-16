@@ -5,14 +5,14 @@ const names = {
 
     "208207211191730176": "ethan le furheur", //Ethan
     "290139158952017920": "juan vice cookie-dent", //Juan
-    "296299023143403521": "quentin l'homme-tacos", //Quentin
+    "296299023143403521": "quentin au gros boule", //Quentin
     "494193895668842497": "lucas vice-trézo", //Lucas
     "663444990487298048": "lénasexcrétaire", //Léna
     "692294443872550962": "claire comme de l'eau de roche", //Claire
-    "260908777446965248": "baroviseur", //Bartho
+    "260908777446965248": "baro le ragdoll", //Bartho
     "613394859906170938": "superémyseur", //Rémy K.
-    "300581520224026625": "benjamin blanc aux yeux bleus", //Benjamin
-    "289056901629607937": "jules wario", //Jules
+    "300581520224026625": "bebou master race", //Benjamin
+    "289056901629607937": "wario lover", //Jules
     "186054282888478720": "antoine lpb", //Antoine
     "329170831248719872": "rémy david", //Rémy D.
     "402851453107961869": "momow yaoyorozu", //Momow
@@ -20,8 +20,8 @@ const names = {
     "689840615881441294": "molécule d'eau", //Auriane
     "425708710317522957": "joséphine", //Joséphine
     "169866171137523712": "zero two", //Jolan
-    "142334776362270720": "lazare le bg", //Lazare
-    "751106751654264842": "sebastien charly brown", //Seb
+    "142334776362270720": "le zède", //Lazare
+    "751106751654264842": "seb le plus bo", //Seb
     "335175864062967809": "philippe à la kouizine", //Philippe
     "299173422762819594": "joshua", //Joshua
     "399297549166706699": "lucas bonnieul", //Lucas B.
@@ -55,7 +55,7 @@ module.exports = class extends CommandPattern {
 
     async run (msg, args, cmd) {
 
-        if (!names[msg.author.id] || //no corresponding name found
+        if (/*!names[msg.author.id] || */ //no corresponding name found
             msg.channel.id !== config.channels.reuParole || //command made in the wrong channel
             !connection //reu not in progress (no connection avalaible)
             ) return msg.react("❌")
@@ -63,7 +63,7 @@ module.exports = class extends CommandPattern {
         msg.react("✅")
 
         //get url via the "api"
-        let url = googleTTS.getAudioUrl(`${names[msg.author.id]} lève la main`, {
+        let url = googleTTS.getAudioUrl(`${msg.member.nickname.split("|").join(",") /*names[msg.author.id]*/} lève la main`, {
             lang: 'fr-FR',
             slow: false,
             host: 'https://translate.google.com',

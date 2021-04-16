@@ -4,7 +4,7 @@ const commandParams = {
     
     name: "suggest",
     aliases: [],
-    desc: "Fais une suggestion dans <#777326096773283900>.",
+    desc: "Fais une suggestion dans <#831543176820293672>.",
     enabled: true,
     dm: false,
     nsfw: false,

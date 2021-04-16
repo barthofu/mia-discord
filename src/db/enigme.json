@@ -1,0 +1,377 @@
+{
+  "data": [
+    {
+      "name": "QR Code (Tableau BDE)",
+      "groups": [
+        "a"
+      ],
+      "question": "**Acte 1A : Mystère tu trouveras**\n\nRendez-vous au BDE ;)",
+      "answer": [
+        "président"
+      ]
+    },
+    {
+      "name": "Rébus : Joubert",
+      "groups": [
+        "a"
+      ],
+      "question": "**Acte 2A : Une réponse tu trouveras**\n\nDes images vallent mieux que mille mots.\n\nhttps://cdn.discordapp.com/attachments/807217835964497950/825404248891457576/b74c4076bc10c67e0315b05d826f92e6.png",
+      "answer": [
+        "joubert"
+      ]
+    },
+    {
+      "name": "Rébus : Secrétaire",
+      "groups": [
+        "b"
+      ],
+      "question": "**Acte 1B : Une ligne tu trouveras**\n\nRendez-vous au BDE ;)",
+      "answer": [
+        "secrétaire"
+      ]
+    },
+    {
+      "name": "Tableau Périodique",
+      "groups": [
+        "b"
+      ],
+      "question": "**Acte 2B : Un tableau mal employé**\n\nDécodez comme bon vous semble, du moment que cela s'assemble.\n\n||https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Tableau_p%C3%A9riodique_des_%C3%A9l%C3%A9ments.svg/1200px-Tableau_p%C3%A9riodique_des_%C3%A9l%C3%A9ments.svg.png||\n\n**56 L 20 28**",
+      "answer": [
+        "balkany"
+      ]
+    },
+    {
+      "name": "Coordonnées",
+      "groups": [
+        "commun"
+      ],
+      "question": "**Acte 1C : L'arrière tu visiteras**\n\nRendez-vous au BDE ;)",
+      "answer": [
+        "secrétariat"
+      ]
+    },
+    {
+      "name": "Matrice",
+      "groups": [
+        "commun",
+        "a",
+        "b"
+      ],
+      "question": "**Acte 3 : Bienvenu dans la matrice**\n\nUn simple nombre peut représenter des centaines de destinations.\n\nhttps://cdn.discordapp.com/attachments/807217835964497950/825404782109655050/unknown.png",
+      "answer": [
+        "S03",
+        "03",
+        "S17",
+        "17",
+        "S21",
+        "21"
+      ]
+    },
+    {
+      "name": "Python",
+      "groups": [
+        "a",
+        "b",
+        "commun"
+      ],
+      "question": "**Acte 4 : Harder Better Faster Coder (RIP)**\n\n> Vous devez décoder le message suivant:\n\n`^||||||(_v||||^)v(_^|||^||||vv)^||p^|pv(_)|||(_^||||^||vv)^_p|||p(_^|v)^p|||p`\n\n> Pour cela l'équipe MIA vous as trouvé un programme du feu de dieu, il faut juste le débugger...\n\nhttps://pastebin.com/u91Jg7Rf",
+      "answer": [
+        "jaloux"
+      ]
+    },
+    {
+      "name": "Picross",
+      "groups": [
+        "commun",
+        "a",
+        "b"
+      ],
+      "question": "**Acte 5 : Pixelisé comme jamais**\n\n> Vous connaissez les picross ?\n\nhttps://picross.relaxweb.fr/picross/46239",
+      "answer": [
+        "jaloux"
+      ]
+    },
+    {
+      "name": "Indice",
+      "groups": [
+        "commun",
+        "a",
+        "b"
+      ],
+      "question": "**Acte 6 : Le précédent n'est qu'indice**\n\n> Tout est dans le titre.",
+      "answer": [
+        "220321"
+      ]
+    },
+    {
+      "name": "Graphe",
+      "groups": [
+        "commun",
+        "a",
+        "b"
+      ],
+      "question": "**Acte 7 : Unis nous sommes plus beaux**\n\n> Petit rappel de cours ?\n\nhttps://cdn.discordapp.com/attachments/807217835964497950/825406875297513502/unknown.png",
+      "answer": [
+        "310321"
+      ]
+    },
+    {
+      "name": "Where's Hammy?",
+      "groups": [
+        "commun",
+        "a",
+        "b"
+      ],
+      "question": "**Acte 8 : Trouver la mascotte tu devras**\n\n> Hammy s'est perdu à la plage... trouve le viiiite et envoie le à Damien !\n\nhttps://media.discordapp.net/attachments/808710426334199848/814162040075714598/Mais_ou_est_Hammy.png?width=901&height=676",
+      "answer": [
+        "0000"
+      ]
+    },
+    {
+      "name": "The End",
+      "groups": [
+        "commun",
+        "a",
+        "b"
+      ],
+      "question": "**Acte Final : Congratulations!**\n\n**Nos Félicitations enquêteur!**\n\nBravo à toi qui a terminé cette énigme !\nNous espérons que tu l'as apprécié :smirk:\n\nContacte le Prézizidant pour savoir si tu as finito en premier !\n\n**Dabizous**",
+      "answer": [
+        "none"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "275191058537775104",
+      "group": "a",
+      "progress": [
+        "2021-03-29T10:55:54.954Z",
+        "2021-03-29T10:56:27.334Z",
+        "Matrice : Mon Mar 29 2021 16:55:34 GMT+0200 (Central European Summer Time)"
+      ]
+    },
+    {
+      "id": "362994011922759680",
+      "group": "a",
+      "progress": [
+        "2021-03-29T10:59:02.096Z",
+        "2021-03-29T11:00:53.758Z"
+      ]
+    },
+    {
+      "id": "239668611000565762",
+      "group": "a",
+      "progress": [
+        "2021-03-29T10:58:39.169Z",
+        "2021-03-29T11:00:19.251Z"
+      ]
+    },
+    {
+      "id": "689487485063266470",
+      "group": "a",
+      "progress": []
+    },
+    {
+      "id": "188418687693357057",
+      "group": "a",
+      "progress": [
+        "2021-03-29T10:59:19.309Z",
+        "2021-03-29T11:01:22.862Z"
+      ]
+    },
+    {
+      "id": "266256047147188224",
+      "group": "a",
+      "progress": [
+        "2021-03-29T10:56:09.650Z",
+        "2021-03-29T10:56:21.093Z",
+        "Matrice : Mon Mar 29 2021 17:26:56 GMT+0200 (Central European Summer Time)"
+      ]
+    },
+    {
+      "id": "260908777446965248",
+      "group": "a",
+      "progress": []
+    },
+    {
+      "id": "385435182913552386",
+      "group": "b",
+      "progress": [
+        "2021-03-29T09:46:39.013Z",
+        "2021-03-29T09:49:08.332Z",
+        "Matrice : Mon Mar 29 2021 14:34:51 GMT+0200 (Central European Summer Time)",
+        "Python : Mon Mar 29 2021 15:19:49 GMT+0200 (Central European Summer Time)",
+        "Picross : Mon Mar 29 2021 15:52:51 GMT+0200 (Central European Summer Time)",
+        "Indice : Mon Mar 29 2021 16:10:11 GMT+0200 (Central European Summer Time)",
+        "Graphe : Mon Mar 29 2021 16:38:27 GMT+0200 (Central European Summer Time)",
+        "Where's Hammy? : Mon Mar 29 2021 16:56:30 GMT+0200 (Central European Summer Time)"
+      ]
+    },
+    {
+      "id": "218651670094151680",
+      "group": "a",
+      "progress": [
+        "2021-03-29T11:20:09.685Z",
+        "2021-03-29T11:20:33.303Z",
+        "Matrice : Mon Mar 29 2021 16:14:00 GMT+0200 (Central European Summer Time)",
+        "Python : Tue Mar 30 2021 00:00:43 GMT+0200 (Central European Summer Time)",
+        "Picross : Tue Mar 30 2021 00:16:28 GMT+0200 (Central European Summer Time)",
+        "Indice : Tue Mar 30 2021 14:15:27 GMT+0200 (Central European Summer Time)"
+      ]
+    },
+    {
+      "id": "320209659313258496",
+      "group": "a",
+      "progress": [
+        "2021-03-29T11:36:03.332Z",
+        "2021-03-29T11:36:19.191Z",
+        "Matrice || Mon Mar 29 2021 14:32:25 GMT+0200 (Central European Summer Time)",
+        "Python : Mon Mar 29 2021 15:15:49 GMT+0200 (Central European Summer Time)",
+        "Picross : Mon Mar 29 2021 15:36:30 GMT+0200 (Central European Summer Time)",
+        "Indice : Mon Mar 29 2021 15:45:40 GMT+0200 (Central European Summer Time)",
+        "Graphe : Mon Mar 29 2021 16:06:23 GMT+0200 (Central European Summer Time)",
+        "Where's Hammy? : Mon Mar 29 2021 17:15:03 GMT+0200 (Central European Summer Time)"
+      ]
+    },
+    {
+      "id": "425708710317522957",
+      "group": "a",
+      "progress": [
+        "2021-03-29T11:13:17.129Z",
+        "2021-03-29T11:13:30.269Z",
+        "Matrice : Mon Mar 29 2021 14:36:24 GMT+0200 (Central European Summer Time)"
+      ]
+    },
+    {
+      "id": "522863542827876388",
+      "group": "a",
+      "progress": [
+        "QR Code (Tableau BDE) : Mon Mar 29 2021 15:15:14 GMT+0200 (Central European Summer Time)",
+        "Rébus : Joubert : Mon Mar 29 2021 15:15:17 GMT+0200 (Central European Summer Time)",
+        "Matrice : Mon Mar 29 2021 15:15:29 GMT+0200 (Central European Summer Time)",
+        "Python : Mon Mar 29 2021 15:15:40 GMT+0200 (Central European Summer Time)",
+        "Picross : Mon Mar 29 2021 15:19:08 GMT+0200 (Central European Summer Time)",
+        "Indice : Mon Mar 29 2021 15:20:44 GMT+0200 (Central European Summer Time)",
+        "Graphe : Mon Mar 29 2021 15:21:05 GMT+0200 (Central European Summer Time)",
+        "Where's Hammy? : Mon Mar 29 2021 15:22:05 GMT+0200 (Central European Summer Time)"
+      ]
+    },
+    {
+      "id": "278866467146039296",
+      "group": "a",
+      "progress": [
+        "2021-03-29T11:35:52.285Z",
+        "2021-03-29T11:36:11.526Z",
+        "Matrice : Mon Mar 29 2021 14:35:21 GMT+0200 (Central European Summer Time)",
+        "Python : Mon Mar 29 2021 15:15:46 GMT+0200 (Central European Summer Time)",
+        "Picross : Mon Mar 29 2021 15:36:21 GMT+0200 (Central European Summer Time)",
+        "Indice : Mon Mar 29 2021 15:45:29 GMT+0200 (Central European Summer Time)",
+        "Graphe : Mon Mar 29 2021 16:05:03 GMT+0200 (Central European Summer Time)",
+        "Where's Hammy? : Mon Mar 29 2021 17:14:25 GMT+0200 (Central European Summer Time)"
+      ]
+    },
+    {
+      "id": "613394859906170938",
+      "group": "a",
+      "progress": [
+        "QR Code (Tableau BDE) : Mon Mar 29 2021 15:34:42 GMT+0200 (Central European Summer Time)",
+        "Rébus : Joubert : Mon Mar 29 2021 15:34:46 GMT+0200 (Central European Summer Time)",
+        "Matrice : Mon Mar 29 2021 15:34:51 GMT+0200 (Central European Summer Time)",
+        "Python : Mon Mar 29 2021 15:35:33 GMT+0200 (Central European Summer Time)",
+        "Picross : Mon Mar 29 2021 15:35:52 GMT+0200 (Central European Summer Time)",
+        "Indice : Mon Mar 29 2021 15:37:42 GMT+0200 (Central European Summer Time)",
+        "Graphe : Mon Mar 29 2021 15:38:37 GMT+0200 (Central European Summer Time)",
+        "Where's Hammy? : Mon Mar 29 2021 22:50:11 GMT+0200 (Central European Summer Time)"
+      ]
+    },
+    {
+      "id": "763670897885315104",
+      "group": "a",
+      "progress": [
+        "QR Code (Tableau BDE) : Mon Mar 29 2021 20:03:56 GMT+0200 (Central European Summer Time)",
+        "Rébus : Joubert : Tue Mar 30 2021 08:24:59 GMT+0200 (Central European Summer Time)"
+      ]
+    },
+    {
+      "id": "335175864062967809",
+      "group": "a",
+      "progress": [
+        "QR Code (Tableau BDE) : Mon Mar 29 2021 16:30:32 GMT+0200 (Central European Summer Time)",
+        "Rébus : Joubert : Mon Mar 29 2021 16:30:39 GMT+0200 (Central European Summer Time)",
+        "Matrice : Mon Mar 29 2021 16:31:12 GMT+0200 (Central European Summer Time)",
+        "Python : Mon Mar 29 2021 16:46:39 GMT+0200 (Central European Summer Time)",
+        "Picross : Tue Mar 30 2021 13:38:30 GMT+0200 (Central European Summer Time)",
+        "Indice : Tue Mar 30 2021 13:40:35 GMT+0200 (Central European Summer Time)",
+        "Graphe : Tue Mar 30 2021 17:20:32 GMT+0200 (Central European Summer Time)",
+        "Where's Hammy? : Tue Mar 30 2021 18:15:40 GMT+0200 (Central European Summer Time)"
+      ]
+    },
+    {
+      "id": "516857944403345428",
+      "group": "a",
+      "progress": []
+    },
+    {
+      "id": "352413008519102475",
+      "group": "a",
+      "progress": [
+        "QR Code (Tableau BDE) : Mon Mar 29 2021 18:02:27 GMT+0200 (Central European Summer Time)",
+        "Rébus : Joubert : Mon Mar 29 2021 18:02:49 GMT+0200 (Central European Summer Time)",
+        "Matrice : Mon Mar 29 2021 18:03:09 GMT+0200 (Central European Summer Time)",
+        "Python : Mon Mar 29 2021 18:49:32 GMT+0200 (Central European Summer Time)",
+        "Picross : Mon Mar 29 2021 19:05:01 GMT+0200 (Central European Summer Time)",
+        "Indice : Mon Mar 29 2021 19:08:22 GMT+0200 (Central European Summer Time)",
+        "Graphe : Mon Mar 29 2021 19:34:10 GMT+0200 (Central European Summer Time)",
+        "Where's Hammy? : Mon Mar 29 2021 19:52:51 GMT+0200 (Central European Summer Time)"
+      ]
+    },
+    {
+      "id": "296299023143403521",
+      "group": "b",
+      "progress": [
+        "Rébus : Secrétaire : Mon Mar 29 2021 17:37:56 GMT+0200 (Central European Summer Time)",
+        "Tableau Périodique : Mon Mar 29 2021 17:39:05 GMT+0200 (Central European Summer Time)",
+        "Matrice : Mon Mar 29 2021 17:48:28 GMT+0200 (Central European Summer Time)",
+        "Python : Mon Mar 29 2021 18:51:38 GMT+0200 (Central European Summer Time)",
+        "Picross : Mon Mar 29 2021 19:04:44 GMT+0200 (Central European Summer Time)",
+        "Indice : Mon Mar 29 2021 19:07:27 GMT+0200 (Central European Summer Time)",
+        "Graphe : Mon Mar 29 2021 19:33:53 GMT+0200 (Central European Summer Time)",
+        "Where's Hammy? : Mon Mar 29 2021 19:53:19 GMT+0200 (Central European Summer Time)"
+      ]
+    },
+    {
+      "id": "296299023143403521",
+      "group": "b",
+      "progress": []
+    },
+    {
+      "id": "352413008519102475",
+      "group": "a",
+      "progress": []
+    },
+    {
+      "id": "494193895668842497",
+      "group": "b",
+      "progress": []
+    },
+    {
+      "id": "494193895668842497",
+      "group": "commun",
+      "progress": []
+    },
+    {
+      "id": "208207211191730176",
+      "group": "a",
+      "progress": [
+        "QR Code (Tableau BDE) : Wed Apr 14 2021 14:30:49 GMT+0200 (Central European Summer Time)",
+        "Rébus : Joubert : Wed Apr 14 2021 15:03:08 GMT+0200 (Central European Summer Time)",
+        "Matrice : Wed Apr 14 2021 15:03:12 GMT+0200 (Central European Summer Time)",
+        "Python : Wed Apr 14 2021 15:03:19 GMT+0200 (Central European Summer Time)",
+        "Picross : Wed Apr 14 2021 15:03:24 GMT+0200 (Central European Summer Time)",
+        "Indice : Wed Apr 14 2021 15:03:38 GMT+0200 (Central European Summer Time)",
+        "Graphe : Wed Apr 14 2021 15:03:46 GMT+0200 (Central European Summer Time)",
+        "Where's Hammy? : Wed Apr 14 2021 15:04:41 GMT+0200 (Central European Summer Time)"
+      ]
+    }
+  ]
+}

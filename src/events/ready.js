@@ -38,18 +38,18 @@ module.exports = class {
             client.checkDaily()
 
             //check birthday
-            if (dateFormat(new Date(), "HH:MM") === "23:55") {
+            if (dateFormat(new Date(), "HH:MM") === "23:50") {
                 members.map(member => {
-                    if (member.birthday.split("/").slice(0, -1).join("/") === dateFormat(new Date().getTime() - 24 * 60 * 60 * 1000, "dd/mm")) {
+                    if (member.birthday.split("/").slice(0, -1).join("/") === dateFormat(new Date().getTime() + 24 * 60 * 60 * 1000, "dd/mm")) {
                         //send birthday notification to all the members
                         bot.guilds.cache.get("777312284409724958").roles.cache.get("777312284417982508").members.map(e => {
-                            if (e.id !== member.id) bot.users.cache.get(e.id).send(`Dans 5 minutes c'est l'anniversaire de **${member.name}** ! N'oublie pas d'aller le lui souhaiter ;)`)
+                            if (e.id !== member.id) bot.users.cache.get(e.id).send(`Dans 10 minutes c'est l'anniversaire de **${member.name}** ! N'oublie pas d'aller le lui souhaiter ;)`)
                         })
                     }
                 })
             } 
             
-        }, 15 * 1000) //each 15 sec
+        }, 60 * 1000) //each minutes
 
         //each 5 minutes within an hour
         cron.schedule('*/10 * * * *', async () => {
